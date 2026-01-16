@@ -1,0 +1,6 @@
+{
+    "imap_server": "imap.gmail.com",
+    "imap_port": 993,
+    "username": "deinuser@gmail.com",
+    "password": "api key von google"
+}

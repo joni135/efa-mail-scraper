@@ -1,0 +1,4 @@
+*.log
+*.conf
+data/*.json
+Thumbs.db

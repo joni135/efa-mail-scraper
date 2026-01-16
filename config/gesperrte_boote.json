@@ -1,0 +1,29 @@
+{
+    "suchfilter": {
+        "betreff": "[efa] Offene Bootsschäden"
+    },
+    "elementseparator": "Bootsschaden für ",
+    "attributseparator": ": ",
+    "exportattribute": {
+        "bootsname": {
+            "liniennummer": 0,
+            "replacetext": "Bootsschaden für "
+        },
+        "beschreibung": {
+            "liniennummer": 2,
+            "replacetext": "Beschreibung: "
+        },
+        "einschraenkung": {
+            "liniennummer": 3,
+            "replacetext": "Schwere des Schadens: "
+        },
+        "datum": {
+            "liniennummer": 4,
+            "replacetext": "gemeldet am: "
+        },
+        "melder": {
+            "liniennummer": 5,
+            "replacetext": "gemeldet von: "
+        }
+    }
+}
