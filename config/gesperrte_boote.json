@@ -3,7 +3,6 @@
         "betreff": "[efa] Offene Bootsschäden"
     },
     "elementseparator": "Bootsschaden für ",
-    "attributseparator": ": ",
     "exportattribute": {
         "bootsname": {
             "liniennummer": 0,
