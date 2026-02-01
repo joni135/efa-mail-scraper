@@ -163,7 +163,7 @@ try:
         email_configs = read_email_configs(scraping_config_path, 'json')
 
         for configtitle, mailconfig in email_configs.items():
-            print(f'Überprüfe Posteingang für {configtitle} (Betreff "{mailconfig['suchfilter']['betreff']}")')
+            print(f'Überprüfe Posteingang für {configtitle} (Betreff "{mailconfig["suchfilter"]["betreff"]}")')
 
             #  Suche E-Mail in Postfach
             mailcontent = check_for_new_email(imap_config, subjectfilter=mailconfig['suchfilter']['betreff'])
@@ -184,11 +184,13 @@ try:
 
     ## Initiator für main()
     if __name__ == "__main__":
-        while True:
-            main()
-            print('Warte 60 Sekunden...')
-            print()
-            time.sleep(60)
+        main()
+        
+        # while True:
+        #     main()
+        #     print('Warte 60 Sekunden...')
+        #     print()
+        #     time.sleep(60)
 
 
 except Exception as err:
